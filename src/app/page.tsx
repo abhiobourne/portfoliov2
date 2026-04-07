@@ -271,7 +271,7 @@ export default function ResumePage() {
     setUsbTransferring(true);
     setTimeout(() => {
       const link = document.createElement('a');
-      link.href = '/new_resume1Page.pdf'; 
+      link.href = '/newResume1Page.pdf'; 
       link.download = 'Jatin_Jadon_Resume.pdf';
       document.body.appendChild(link);
       link.click();
@@ -516,7 +516,7 @@ export default function ResumePage() {
               />
             </div>
             <div className="mt-2 text-[8px] opacity-60">
-              [OK] new_resume1Page.pdf <br/>
+              [OK] newResume1Page.pdf <br/>
               [OK] Metadata_JJ_v26
             </div>
           </motion.div>
