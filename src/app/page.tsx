@@ -249,13 +249,18 @@ export default function ResumePage() {
   const [marginNote, setMarginNote] = useState<string | null>(null);
   const [isPowerOut, setIsPowerOut] = useState(false);
   const [activeTab, setActiveTab] = useState<string>("SUMMARY");
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Parallax and Dynamic Shadow offsets
-  const parallaxX = (mousePos.x - (typeof window !== 'undefined' ? window.innerWidth / 2 : 0)) * -0.015;
-  const parallaxY = (mousePos.y - (typeof window !== 'undefined' ? window.innerHeight / 2 : 0)) * -0.015;
+  const parallaxX = mounted ? (mousePos.x - window.innerWidth / 2) * -0.015 : 0;
+  const parallaxY = mounted ? (mousePos.y - window.innerHeight / 2) * -0.015 : 0;
 
-  const mouseXNorm = typeof window !== 'undefined' ? (mousePos.x / window.innerWidth) * 2 - 1 : 0;
-  const mouseYNorm = typeof window !== 'undefined' ? (mousePos.y / window.innerHeight) * 2 - 1 : 0;
+  const mouseXNorm = mounted ? (mousePos.x / window.innerWidth) * 2 - 1 : 0;
+  const mouseYNorm = mounted ? (mousePos.y / window.innerHeight) * 2 - 1 : 0;
 
   const shadowX = -mouseXNorm * 20;
   const shadowY = Math.max(5, -mouseYNorm * 25);

@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jatin Jadon - Classified Portfolio 🕵️‍♂️📁
 
-## Getting Started
+Welcome to my personal portfolio project, developed with a highly immersive "Detective / Classified Case File" theme. Here, exploring my skills and experiences feels like investigating a top-secret dossier.
 
-First, run the development server:
+## 🌟 Thematic Highlights
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   **Immersive Design**: A meticulous "detective board" visual style packed with coffee stains, polaroid photos, fingerprints, and redacted text.
+-   **Interactive Clues**:
+    -   Yarn/String connections dynamically route between skills to build a mind-map, powered by Framer Motion.
+    -   Flashlight/Power Outage mode for discovering hidden details.
+    -   A classified USB drive that downloads the resume securely visually.
+-   **Dynamic Parallax Elements**: Implements a cursor-tracking parallax to give natural depth to shadows and ghosted visuals (mimicking ambient occlusion).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack & Arsenal
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **Core Framework**: Next.js (App Router)
+-   **Language**: TypeScript
+-   **Styling**: Tailwind CSS
+-   **Animations & Interactions**: Framer Motion
+-   **Icons**: Lucide React
+-   **Deployment**: Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+If you want to view the project locally, trace the coordinates below:
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Clone the dossier (repository)**:
+    ```bash
+    git clone <repository-url>
+    cd portfolio2
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    # or yarn / pnpm install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3.  **Boot the mainframe (Start Development Server)**:
+    ```bash
+    npm run dev
+    ```
 
-## Deploy on Vercel
+4.  **Investigate**: Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Project Highlights & Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This portfolio exhibits real-world projects logged as "Evidence Cases":
+-   **CoursifyYT**: A full-stack platform leveraging Next.js and NestJS to convert YouTube media into an integrated learning ecosystem.
+-   **CyberSafe**: A cybersecurity awareness tool with a custom OpenAI-powered social engineering chatbot.
+-   **On The Way Transport**: A digitization platform serving actively operating transport logistics networks.
+
+## ✍️ Contact the Subject
+
+Status is currently: **ACTIVE**
+
+If you'd like to reach me regarding opportunities, simply access the 'Call Him!' sticky note or view the Contact Classified section down the dossier!
+
+---
+> *"Subject is a highly capable full-stack developer focused on building scalable, high-performance web applications. Known to prioritize system efficiency over standard practices."* - **Bureau of Investigations**
